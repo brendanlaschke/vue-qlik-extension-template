@@ -1,0 +1,47 @@
+{
+  "name": "extension_name",
+  "version": "1.0.0",
+  "description": "",
+  "author": "authorname",
+  "extensionMetaInfo": {
+    "extName": "Extenion Name",
+    "visualName": "Display Extension Name",
+    "description": "description ...",
+    "icon": "insert",
+    "preview": "logo.png",
+    "bundle": {
+      "id": "BundleID",
+      "name": "BundleName",
+      "description": "Bundle description"
+    }
+  },
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production --progress --color"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/angular": "^1.8.5",
+    "babel-loader": "^9.1.2",
+    "babel-preset-vue": "^2.0.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "generate-json-webpack-plugin": "^2.0.0",
+    "html-loader": "^4.2.0",
+    "less-loader": "^11.1.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "source-map-loader": "^4.0.1",
+    "string-replace-loader": "^3.1.0",
+    "ts-loader": "^9.4.2",
+    "vue-loader": "^17.1.0",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "zip-webpack-plugin": "^4.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "mitt": "^3.0.0",
+    "vue": "^3.2.47"
+  }
+}

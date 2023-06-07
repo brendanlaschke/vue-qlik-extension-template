@@ -1,0 +1,13 @@
+{
+    // The following will hide the js and map files in the editor
+    "files.exclude": {
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.map": true,
+        "**/*.css": true,
+        "**/*.gitignore": false,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "shims-vue.d.ts": true,
+    },
+}

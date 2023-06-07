@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "exclude": [
+    ".vscode",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "declaration": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    "target": "es5",
+    "types": ["@types/node"]
+  },
+}
